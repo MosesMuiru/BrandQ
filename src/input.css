@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Didact Gothic', sans-serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+font-family: 'Sofia Sans Extra Condensed', sans-serif;
+font-family: 'Tangerine', cursive; */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
