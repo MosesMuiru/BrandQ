@@ -18,13 +18,13 @@
   
   <section class="w-screen h-screen">
 
-    <nav class="flex items-center justify-between  mx-[186px] text-secondary2 mt-[32px] " >
-     <div class="">
+    <nav class="flex items-center justify-between  sm:mx-[146px]  text-secondary2 mt-[32px] " >
+     <div class=" ml-[30px] ">
        <h2 class="text-[27px] ">Brand<span class="text-thinYellow font-bold text-[35px">Q</span></h2>
      </div>
    
      <div>
-       <ul class="flex justify-center items-center gap-[40px] font-[19.2px]">
+       <ul class="sm:flex  justify-center items-center gap-[40px] hidden font-[19.2px]">
          <li><a href="">Home</a></li>
          <li><a href="">Projects</a></li>
          <li><a href="">About us</a></li>
@@ -33,14 +33,14 @@
     </nav>
    
     <!-- landing page -->
-    <section class="mt-[90px] ml-[185px] mr-[132px] flex items-center justify-center ">
+    <section class="mt-[90px] sm:ml-[185px] ml-[125px] mr-[132px] flex items-center justify-center ">
      <div class="w-[80vw]">
        <h3 class="text-[16px] text-secondary2 mb-[14px]">Design Agency</h3>
-       <h1 class="text-[55px] font-[700] text-secondary2 capitalize mb-[23px]   leading-[5rem]">unlock your brand's <span class="text-thinYellow">Creative</span> potential</h1>
-       <p class="text-secondary1 text-[19px]">We believe that every brand has the potential to be great. Our mission is to help business unlock their full craetice potential by providing guidance through effective brand strategy.</p>
+       <h1 class="sm:text-[55px] text-[25px] font-[700] text-secondary2 capitalize mb-[23px]   sm:leading-[5rem] leading-[4rem] w-screen sm:w-[80vh]">unlock your brand's <span class="text-thinYellow">Creative</span> potential</h1>
+       <p class="text-secondary1 text-[12px] sm:text-[18px]">We believe that every brand has the potential to be great. Our mission is to help business unlock their full craetice potential by providing guidance through effective brand strategy.</p>
        <button class="bg-thinYellow text-secondary2 mt-[40px] px-[30px] py-[10px]">Contact us</button>
      </div>
-     <div class="w-full h-full">
+     <div class="w-full h-full hidden sm:flex">
        <img class="w-full h-full"  src="/assets/landingpage.png" alt="">
      </div>
     </section>
@@ -51,14 +51,14 @@
 
 
     <section class="bg-secondary1 h-[336px] w-screen">
-      <div class="flex px-[185px] py-[78px] items-center justify-between text-thinWhite w-full h-full gap-[58px]">
-        <div class="w-full">
-          <p class="text-[39px] font-[400]">We believe that every brand has a story to tell</p>
+      <div class="flex  flex-col md:flex md:flex-row sm:px-[100px] px-[2rem]  py-[78px] items-center justify-between text-thinWhite w-full h-full  sm:gap-[58px]">
+        <div class="w-screen">
+          <p class="sm:text-[39px] text-[15px] font-[400] w-full h-full">We believe that every brand has a story to tell</p>
         </div>
   
         <div class="w-full">
   
-          <p class="text-[19px] ">We offer a range of services including brand discovery, brand positioning, brand messaging, 
+          <p class="sm:text-[12px] text-[10px] w-full h-full leading-10">We offer a range of services including brand discovery, brand positioning, brand messaging, 
             visual identity design, website design, and more. Whether you're a new startup or an established brand looking to rebrand, we have the expertise to help you reach your full creative potential.</p>
         </div>
       </div>
@@ -73,7 +73,7 @@
 
       <div class="w-full flex flex-col items-center justify-center ">
         <img src="/assets/2user1.png" alt="">
-        <p class="text-center mx-[424px] text-[20px] font-[400] text-secondary1 mt-[20px]">"Thanks to the agency's expertise and guidance, our brand has never been stronger. They helped us develop a brand strategy that truly resonates with our customers, and the results speak for themselves. I highly recommend their services."
+        <p class="text-center mx-[10px] sm:mx-[424px] md:text-[20px] sm:text-[12px] font-[400] text-secondary1 mt-[20px]">"Thanks to the agency's expertise and guidance, our brand has never been stronger. They helped us develop a brand strategy that truly resonates with our customers, and the results speak for themselves. I highly recommend their services."
           Jaxson Culhane
           Spotify</p>
           <h3 class="text-secondary2 text-[16px] font-[700] mt-[20px]">Jaxson Culhane</h3>
@@ -90,47 +90,67 @@
   </main>
 
   <!-- our work -->
-  <section class="bg-secondary2 w-screen h-screen pt-[83px] text-thinWhite">
- <div class="px-[188px] "> 
-  <div>
-    <h1 class="text-[47.78px] capitalize font-[700]">our Work</h1>
-    <p class="text-[19px] font-[400]"> Our team of experienced designers and strategists work closely with you to develop a deep understanding of your business, your customers, and your competition. We use this knowledge to create a custom brand strategy that will differentiate you from the competition and drive growth.</p>
+  <section class="bg-secondary2 w-screen h-[998px] pt-[83px] text-thinWhite ">
+ <div class="md:px-[188px] sm:px-[70px] flex flex-col"> 
+  <div class="w-full px-7">
+    <h1 class="sm:text-[47.78px] text-[2rem] capitalize font-[700]">our Work</h1>
+    <p class="sm:text-[19px] text-[10px] font-[400]   my-10  bg-red-500"> Our team of experienced designers and strategists work closely with you to develop a deep understanding of your business, your customers, and your competition. We use this knowledge to create a custom brand strategy that will differentiate you from the competition and drive growth.</p>
   </div>
-  <div class="flex items-center justify-center gap-[47px] pt-[81px]">
-    <div class="w-[348px] h-[285px]">
+  <div class="flex flex-col md:flex md:flex-row items-center justify-center md:gap-[47px] md:pt-[81px] ">
+    <div class="w-[348px] h-[300px] ">
       <img src="/assets/sticker1.jpg" alt="">
 
-      <h3>Hype Community App</h3>
-      <p class="text-gray2 pt-[20px]">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
-      <a href="" class="w-[16px] underline pt-3">Read More</a>
+      <h3 class="text-[19px] mt-[20px] font-[600] ml-7">Hype Community App</h3>
+      <p class="text-gray2 pt-[20px] text-[16px] ml-7">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
+     <div>
+      <a href="" class="w-[16px] underline ml-7 mt-7 text-[20px] font-[400] ">Read More</a>
+    </div> 
     </div>
 
-    <div class="w-[348px] h-[285px]">
-      <img src="/assets/sticker1.jpg" alt="">
+    <div class="w-[348px] h-[285px] md:block hidden">
+      <img src="/assets/sticker2.png" alt="">
 
-      <h3>Hype Community App</h3>
-      <p class="text-gray2 pt-[20px]">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
-      <a href="" class="w-[16px] underline pt-3">Read More</a>
+      <h3 class="text-[19px] mt-[20px] font-[600]">Rooms Platform</h3>
+      <p class="text-gray2 pt-[20px] text-[16px]">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
+      <a href="" class="w-[16px] underline mt-[20px] text-[20px] font-[400] ">Read More</a>
     </div>
 
-    <div class="w-[348px] h-[285px]">
-      <img src="/assets/sticker1.jpg" alt="">
+    <div class="w-[348px] h-[300px] hidden md:block">
+      <img src="/assets/sticker3.png" alt="">
 
-      <h3>Hype Community App</h3>
-      <p class="text-gray2 pt-[20px]">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
-      <a href="" class="w-[16px] underline pt-3">Read More</a>
+      <h3 class="text-[19px] mt-[20px] font-[600]">Hypebeast Shop</h3>
+      <p class="text-gray2 pt-[20px] text-[16px]">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
+      <a href="" class="w-[16px] underline mt-[100px] text-[20px] font-[400] ">Read More</a>
     </div>
 
   
+  </div>
 
-    
-  </div>
-  <div>
-    <button class="bg-thinYellow text-secondary2 mt-[63px] px-[30px] py-[10px]">All Projects</button>
-  </div>
+
+    <button class="bg-thinYellow text-secondary2 md:px-[30px] py-[10px] font-[400] mt-[250px]   w-[150px] ">All Projects</button>
+  
+
+  
  </div>
+ 
+ 
 
   </section>
+
+  <section>
+    <div class>
+     <p class="align-center text-center w-full px-10 md:px-[244px] text-[20px] md:text-[40px] text-secondary2 ">“Let us help you tell yours in a way that connects with your audience and drives results.”</p>
+    </div>
+    <div class="md:h-[404px]  w-screen">
+      <img class="h-full w-full" src="/assets/people.png" alt="">
+    </div>
+
+  </section>
+
+  <footer class="bg-secondary1 flex flex-col justify-center items-center py-[30px] gap-[34px]">
+    <h2 class="text-[27px] font-[700] text-white">Brand<span class="text-thinYellow font-bold text-[35px">Q</span></h2>
+    <p class="text-[#F0F0F0] text-[16px] gap-[34px]">copyright Hype 2023 || All Rights Reserved</p>
+  </footer>
 
 
 </body>
