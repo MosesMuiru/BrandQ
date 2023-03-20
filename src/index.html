@@ -10,6 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Golos+Text:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&family=Sofia+Sans+Extra+Condensed:wght@700&family=Sofia+Sans:ital,wght@0,200;1,200&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2a990dac14.js" crossorigin="anonymous"></script>
 
 
     <!-- <link rel="stylesheet" href="./src/input.css"> -->
@@ -17,15 +18,25 @@
 </head>
 <body>
   
-  <section class="w-screen h-screen">
+  <section class="w-screen h-screen home">
+
+  
+
+   
 
     <nav class="flex items-center justify-between  sm:mx-[146px]  text-secondary2 mt-[32px] " >
      <div class=" ml-[30px] ">
        <h2 class="text-[27px] ">Brand<span class="text-thinYellow font-bold text-[35px">Q</span></h2>
      </div>
    
-     <div>
-       <ul class="sm:flex  justify-center items-center gap-[40px] hidden font-[19.2px]">
+     <div class="bars hidden">
+      <i class="open fa-solid fa-bars"></i>
+
+      <i class="close fa-solid fa-xmark "></i>
+    </div>
+     <div class="">
+   
+       <ul class="w-[40vh]  sm:flex  justify-center items-center gap-[40px] hidden font-[19.2px]">
          <li><a href="">Home</a></li>
          <li><a href="">Projects</a></li>
          <li><a href="">About us</a></li>
@@ -51,15 +62,17 @@
   <main>
 
 
+
     <section class="bg-secondary1 h-[336px] w-screen">
       <div class="flex  flex-col md:flex md:flex-row sm:px-[100px] px-[2rem]  py-[78px] items-center justify-between text-thinWhite w-full h-full  sm:gap-[58px]">
         <div class="w-screen">
-          <p class="sm:text-[39px] text-[15px] font-[400] w-full h-full">We believe that every brand has a story to tell</p>
+          <p class="sm:text-[39px] text-[15px] font-[400] lg:w-[80vh]  h-full ml-7">We believe that every brand has a story to tell</p>
         </div>
   
         <div class="w-full">
   
-          <p class="sm:text-[12px] text-[10px] w-full h-full leading-10">We offer a range of services including brand discovery, brand positioning, brand messaging, 
+          <p class="sm:text-[12px] text-[10px] w-full h-full leading-10">
+            We offer a range of services including brand discovery, brand positioning, brand messaging, 
             visual identity design, website design, and more. Whether you're a new startup or an established brand looking to rebrand, we have the expertise to help you reach your full creative potential.</p>
         </div>
       </div>
@@ -74,10 +87,14 @@
 
       <div class="w-full flex flex-col items-center justify-center ">
         <img src="/assets/2user1.png" alt="">
-        <p class="text-center mx-[10px] sm:mx-[424px] md:text-[20px] sm:text-[12px] font-[400] text-secondary1 mt-[20px]">"Thanks to the agency's expertise and guidance, our brand has never been stronger. They helped us develop a brand strategy that truly resonates with our customers, and the results speak for themselves. I highly recommend their services."
+        <p class="text-center mx-[10px] sm:w-[100vh]  md:text-[20px] sm:text-[12px] font-[400] text-secondary1 mt-[20px]  w-[40vh]">
+          "Thanks to the agency's expertise and guidance, our brand has never been stronger. They helped us develop a brand strategy that truly resonates with our customers, and the results speak for themselves. I highly recommend their services."
           Jaxson Culhane
           Spotify</p>
-          <h3 class="text-secondary2 text-[16px] font-[700] mt-[20px]">Jaxson Culhane</h3>
+
+          <h3 class="text-secondary2 text-[16px] font-[700] mt-[20px]">
+            Jaxson Culhane
+          </h3>
           <p class="text-secondary2 font-[400] text-[16px]">Spotify</p>
 
           <div class="mt-[63px] flex items-center justify-center gap-[9px] mb-[79px]"> 
@@ -91,20 +108,20 @@
   </main>
 
   <!-- our work -->
-  <section class="bg-secondary2 w-screen h-[998px] pt-[83px] text-thinWhite ">
- <div class="md:px-[188px] sm:px-[70px] flex flex-col"> 
+  <section class="bg-secondary2 w-screen md:h-[998px] h-[850px] pt-[83px] text-thinWhite ">
+ <div class="md:px-[188px] sm:px-[70px] flex flex-col "> 
   <div class="w-full px-7">
     <h1 class="sm:text-[47.78px] text-[2rem] capitalize font-[700]">our Work</h1>
-    <p class="sm:text-[19px] text-[10px] font-[400]   my-10  bg-red-500"> Our team of experienced designers and strategists work closely with you to develop a deep understanding of your business, your customers, and your competition. We use this knowledge to create a custom brand strategy that will differentiate you from the competition and drive growth.</p>
+    <p class="sm:text-[19px] text-[10px] font-[400]   my-10  "> Our team of experienced designers and strategists work closely with you to develop a deep understanding of your business, your customers, and your competition. We use this knowledge to create a custom brand strategy that will differentiate you from the competition and drive growth.</p>
   </div>
-  <div class="flex flex-col md:flex md:flex-row items-center justify-center md:gap-[47px] md:pt-[81px] ">
-    <div class="w-[348px] h-[300px] ">
+  <div class="flex flex-col md:flex md:flex-row items-center justify-center md:gap-[47px] md:pt-[81px] h-[50%]">
+    <div class="w-[348px] h-[285px] ">
       <img src="/assets/sticker1.jpg" alt="">
 
-      <h3 class="text-[19px] mt-[20px] font-[600] ml-7">Hype Community App</h3>
-      <p class="text-gray2 pt-[20px] text-[16px] ml-7">place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
+      <h3 class="text-[19px] mt-[20px] font-[600]  sm:ml-0">Hype Community App</h3>
+      <p class="text-gray2 pt-[20px] sm:text-[16px]  sm:ml-0  text-[12px] py-4">Place to learn about your team, and what you’re your left-hand sidebar to add more pages, like process docs or a project roadmap.</p>
      <div>
-      <a href="" class="w-[16px] underline ml-7 mt-7 text-[20px] font-[400] ">Read More</a>
+      <a href="" class="w-[16px] underline mt-7 text-[20px] font-[400] ">Read More</a>
     </div> 
     </div>
 
@@ -128,7 +145,7 @@
   </div>
 
 
-    <button class="bg-thinYellow text-secondary2 md:px-[30px] py-[10px] font-[400] mt-[250px]   w-[150px] ">All Projects</button>
+    <button class="bg-thinYellow text-secondary2 md:px-[30px] py-[10px] sm:ml-[75px] ml-[50px] font-[400] sm:mt-[250px] mt-[200px] md:ml-0  w-[150px] ">All Projects</button>
   
 
   
@@ -153,6 +170,8 @@
     <p class="text-[#F0F0F0] text-[16px] gap-[34px]">copyright Hype 2023 || All Rights Reserved</p>
   </footer>
 
+
+  <script src="./app.js"></script>
 
 </body>
 </html>
